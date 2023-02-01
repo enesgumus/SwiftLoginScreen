@@ -22,7 +22,7 @@ class ViewController: UIViewController
 
     @IBAction func didTaploginButton( sender: UIButton)
     {
-        if usernameTextField.text == "enesgumus",passwordTextField.text == "1234"
+        if usernameTextField.text == "enesgumus" && passwordTextField.text == "1234"
         {
             errorLabel.isHidden = false
             activityIndicatorView.startAnimating()
