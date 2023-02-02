@@ -34,12 +34,10 @@ class ViewController: UIViewController
         else
         
         {
-            if usernameTextField.text != "enesgumus", passwordTextField.text != "1234"
-            {
                 errorLabel.isHidden = false
                 errorLabel.text = "!Hatalı Kullanıcı adı veya Şifre"
                 activityIndicatorView.stopAnimating()
-            }
+            
         }
             
     }
